@@ -1,0 +1,43 @@
+[
+  {
+    "_id": "Sample-Dashboard-for-nginx-plus-json-Logs",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Sample Dashboard for Nginx Plus (JSON) Logs",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Accepted Connections-vs.-Time-json\",\"row\":9,\"size_x\":12,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Nginx-Plus-Dashboard-json\",\"row\":1,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"}     
+      "version": 1,
+      "timeRestore": true,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Accepted Connections-vs.-Time-json",
+    "_type": "visualization",
+    "_source": {
+      "title": "Accepted Connections vs. Time",
+      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"1s\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"accepted\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"nginxplus_json_elk_example\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "Nginx-Plus-Dashboard-json",
+    "_type": "visualization",
+    "_source": {
+      "title": "Nginx Plus Dashboard",
+      "visState": "{\"type\":\"markdown\",\"params\":{\"markdown\":\"#### Sample Dashboard for Nginx Plus logs\\nSimple dashboard for exploring & visualizing web traffic by analyzing JSON from Nginx Plus's status API. This dashboard is included as a part of the [Getting Started with ELK](https://github.com/asawariS/test/tree/master/nginx) repo on Github.\\n\\n**Example visualizations in the dashboard include:**\\n* Number of total & unique visitors \\n* Map show web traffic from various locations\\n* Pie chart of traffic by operating systems\\n\\nFeel free to explore & modify the dashboards to your hearts content. Ask questions, test hypothesis, diagnose issues!\\n\\n**Happy exploration!!!**\"},\"aggs\":[],\"listeners\":{}}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+]
