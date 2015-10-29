@@ -1,29 +1,18 @@
 [
   {
-    "_id": "Sample-Dashboard-for-nginx-plus-json-Logs",
+    "_id": "NginxPlus:-Sample-Dashboard",
     "_type": "dashboard",
     "_source": {
-      "title": "Sample Dashboard for Nginx Plus (JSON) Logs",
+      "title": "NginxPlus: Sample Dashboard",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"col\":1,\"id\":\"Accepted Connections-vs.-Time-json\",\"row\":9,\"size_x\":12,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Nginx-Plus-Dashboard-json\",\"row\":1,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"}     
+      "panelsJSON": "[{\"id\":\"Nginx-Plus-Dashboard-json\",\"type\":\"visualization\",\"size_x\":3,\"size_y\":2,\"col\":1,\"row\":1},{\"id\":\"NginxPlus:-Accepted-Connections-vs.-Time\",\"type\":\"visualization\",\"size_x\":9,\"size_y\":2,\"col\":4,\"row\":1}]",
       "version": 1,
       "timeRestore": true,
+      "timeTo": "2015-11-01T07:00:00.000Z",
+      "timeFrom": "2015-06-10T00:36:32.642Z",
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
-      }
-    }
-  },
-  {
-    "_id": "Accepted Connections-vs.-Time-json",
-    "_type": "visualization",
-    "_source": {
-      "title": "Accepted Connections vs. Time",
-      "visState": "{\"type\":\"histogram\",\"params\":{\"shareYAxis\":true,\"addTooltip\":true,\"addLegend\":true,\"scale\":\"linear\",\"mode\":\"stacked\",\"times\":[],\"addTimeMarker\":false,\"defaultYExtents\":false,\"setYExtents\":false,\"yAxis\":{}},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}},{\"id\":\"2\",\"type\":\"date_histogram\",\"schema\":\"segment\",\"params\":{\"field\":\"@timestamp\",\"interval\":\"d\",\"customInterval\":\"1s\",\"min_doc_count\":1,\"extended_bounds\":{}}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"group\",\"params\":{\"field\":\"accepted\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\"}}],\"listeners\":{}}",
-      "description": "",
-      "version": 1,
-      "kibanaSavedObjectMeta": {
-        "searchSourceJSON": "{\"index\":\"nginxplus_json_elk_example\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
       }
     }
   },
@@ -40,4 +29,17 @@
       }
     }
   },
+  {
+    "_id": "NginxPlus:-Accepted-Connections-vs.-Time",
+    "_type": "visualization",
+    "_source": {
+      "title": "NginxPlus: Accepted Connections vs. Time",
+      "visState": "{\"aggs\":[{\"id\":\"1\",\"params\":{\"field\":\"connections.accepted\"},\"schema\":\"metric\",\"type\":\"avg\"},{\"id\":\"2\",\"params\":{\"customInterval\":\"1s\",\"extended_bounds\":{},\"field\":\"@timestamp\",\"interval\":\"d\",\"min_doc_count\":1},\"schema\":\"segment\",\"type\":\"date_histogram\"}],\"listeners\":{},\"params\":{\"addLegend\":true,\"addTimeMarker\":false,\"addTooltip\":true,\"defaultYExtents\":false,\"mode\":\"stacked\",\"scale\":\"linear\",\"setYExtents\":false,\"shareYAxis\":true,\"times\":[],\"yAxis\":{}},\"type\":\"histogram\"}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"nginxplus_json_elk_example\",\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}},\"filter\":[]}"
+      }
+    }
+  }
 ]
