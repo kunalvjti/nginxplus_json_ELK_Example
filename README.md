@@ -31,18 +31,6 @@ Download the following files in this repo to a local directory:
 - `nginxplus_json_kibana.json` - config file to load prebuilt Kibana dashboard
 - `nginxplus_json_status.sh` - script used to generate nginxplus_json_logs
 
-Unfortunately, Github does not provide a convenient one-click option to download entire contents of a subfolder in a repo. Use sample code provided below to download the required files to a local directory:
-
-```shell
-mkdir  nginxplus_json_ELK_Example
-cd nginxplus_json_ELK_Example
-wget https://raw.githubusercontent.com/elastic/examples/master/ELK_nginxplus-json/nginxplus_json_logstash.conf
-wget https://raw.githubusercontent.com/elastic/examples/master/ELK_nginxplus-json/nginxplus_json_kibana.json
-wget https://raw.githubusercontent.com/elastic/examples/master/ELK_nginxplus-json/nginxplus_json_template.json
-wget https://raw.githubusercontent.com/elastic/examples/master/ELK_nginxplus-json/nginxplus_json_logs
-wget https://raw.githubusercontent.com/elastic/examples/master/ELK_nginxplus-json/nginxplus_json_status.sh
-```
-
 ** The JSON formatted Nginx Plus logs used in this example were created using status API of Nginx Plus. For more information on status API and Live activity monitoring, please refer this [article](https://www.nginx.com/products/live-activity-monitoring/)
 
 ### Run Example
