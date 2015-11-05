@@ -25,13 +25,13 @@ Example has been tested in following versions:
 ### Download Example Files
 
 Download the following files in this repo to a local directory:
-- `nginxplus_json_logs` - sample JSON formatted Nginx logs from its status API**
+- `nginxplus_json_logs` - sample JSON formatted Nginx Plus logs from its status API
 - `nginxplus_json_logstash.conf` - Logstash config for ingesting data into Elasticsearch
 - `nginxplus_json_template.json` - template for custom mapping of fields
 - `nginxplus_json_kibana.json` - config file to load prebuilt Kibana dashboard
 - `nginxplus_json_status.sh` - script used to generate nginxplus_json_logs
 
-** The JSON formatted Nginx Plus logs used in this example were created using status API of Nginx Plus. For more information on status API and Live activity monitoring, please refer this [article](https://www.nginx.com/products/live-activity-monitoring/)
+** The JSON formatted logs used in this example were created using status API of Nginx Plus. Please refer to [Live activity monitoring with Nginx Plus](https://www.nginx.com/products/live-activity-monitoring/) for more information on how to use status API of Nginx Plus
 
 ### Run Example
 ##### 1. Ingest data into Elasticsearch using Logstash
