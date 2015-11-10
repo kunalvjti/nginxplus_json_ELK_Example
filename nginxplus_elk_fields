@@ -1,0 +1,441 @@
+_index  	string				
+Edit
+_type  	string				
+Edit
+_source  	_source				
+Edit
+_id  	string				
+Edit
+upstreams.lxr-backend.peers.responses.4xx  	number				
+Edit
+server_zones.hg.nginx.org.discarded  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.active  	number				
+Edit
+caches.http_cache.cold  	boolean				
+Edit
+upstreams.trac-backend.peers.unavail  	number				
+Edit
+upstreams.trac-backend.peers.weight  	number				
+Edit
+server_zones.trac.nginx.org.responses.1xx  	number				
+Edit
+server_zones.hg.nginx.org.responses.total  	number				
+Edit
+server_zones.trac.nginx.org.discarded  	number				
+Edit
+upstreams.lxr-backend.peers.fails  	number				
+Edit
+caches.http_cache.stale.responses  	number				
+Edit
+upstreams.hg-backend.peers.health_checks.checks  	number				
+Edit
+caches.http_cache.miss.responses  	number				
+Edit
+upstreams.trac-backend.peers.downtime  	number				
+Edit
+upstreams.lxr-backend.peers.backup  	boolean				
+Edit
+upstreams.demo-backend.peers.responses.2xx  	number				
+Edit
+upstreams.trac-backend.peers.responses.5xx  	number				
+Edit
+version  	number				
+Edit
+upstreams.lxr-backend.peers.received  	number				
+Edit
+connections.dropped  	number				
+Edit
+upstreams.trac-backend.peers.active  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.state.raw  	string				
+Edit
+upstreams.lxr-backend.peers.state.raw  	string				
+Edit
+upstreams.lxr-backend.peers.server.raw  	string				
+Edit
+stream.upstreams.postgresql_backends.peers.response_time  	number				
+Edit
+requests.total  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.server.raw  	string				
+Edit
+connections.idle  	number				
+Edit
+stream.server_zones.postgresql_loadbalancer.sent  	number				
+Edit
+upstreams.lxr-backend.peers.responses.3xx  	number				
+Edit
+server_zones.trac.nginx.org.sent  	number				
+Edit
+caches.http_cache.revalidated.bytes  	number				
+Edit
+connections.accepted  	number				
+Edit
+upstreams.trac-backend.peers.health_checks.checks  	number				
+Edit
+upstreams.hg-backend.peers.received  	number				
+Edit
+upstreams.lxr-backend.peers.health_checks.checks  	number				
+Edit
+server_zones.trac.nginx.org.responses.2xx  	number				
+Edit
+upstreams.hg-backend.peers.responses.1xx  	number				
+Edit
+upstreams.trac-backend.peers.fails  	number				
+Edit
+upstreams.demo-backend.peers.active  	number				
+Edit
+server_zones.lxr.nginx.org.responses.5xx  	number				
+Edit
+upstreams.trac-backend.peers.requests  	number				
+Edit
+ssl.handshakes  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.weight  	number				
+Edit
+ssl.handshakes_failed  	number				
+Edit
+timestamp  	number				
+Edit
+upstreams.hg-backend.peers.responses.total  	number				
+Edit
+address  	string				
+Edit
+upstreams.demo-backend.peers.state.raw  	string				
+Edit
+upstreams.trac-backend.peers.responses.4xx  	number				
+Edit
+upstreams.lxr-backend.peers.server  	string				
+Edit
+upstreams.demo-backend.peers.weight  	number				
+Edit
+upstreams.demo-backend.peers.responses.1xx  	number				
+Edit
+upstreams.lxr-backend.peers.health_checks.unhealthy  	number				
+Edit
+upstreams.demo-backend.peers.unavail  	number				
+Edit
+server_zones.hg.nginx.org.received  	number				
+Edit
+caches.http_cache.expired.responses  	number				
+Edit
+upstreams.trac-backend.peers.id  	number				
+Edit
+load_timestamp  	number				
+Edit
+upstreams.hg-backend.peers.fails  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.health_checks.checks  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.downstart  	number				
+Edit
+nginx_version  	string				
+Edit
+server_zones.hg.nginx.org.requests  	number				
+Edit
+upstreams.lxr-backend.peers.responses.total  	number				
+Edit
+caches.http_cache.max_size  	number				
+Edit
+upstreams.lxr-backend.peers.max_conns  	number				
+Edit
+upstreams.hg-backend.peers.health_checks.last_passed  	boolean				
+Edit
+upstreams.lxr-backend.keepalive  	number				
+Edit
+server_zones.lxr.nginx.org.processing  	number				
+Edit
+caches.http_cache.expired.bytes_written  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.server  	string				
+Edit
+ssl.session_reuses  	number				
+Edit
+upstreams.demo-backend.peers.health_checks.checks  	number				
+Edit
+caches.http_cache.expired.bytes  	number				
+Edit
+upstreams.demo-backend.peers.requests  	number				
+Edit
+upstreams.trac-backend.peers.responses.3xx  	number				
+Edit
+caches.http_cache.hit.bytes  	number				
+Edit
+upstreams.lxr-backend.peers.downtime  	number				
+Edit
+caches.http_cache.updating.bytes  	number				
+Edit
+caches.http_cache.revalidated.responses  	number				
+Edit
+@version.raw  	string				
+Edit
+stream.upstreams.postgresql_backends.peers.unavail  	number				
+Edit
+upstreams.lxr-backend.peers.selected  	number				
+Edit
+nginx_version.raw  	string				
+Edit
+upstreams.lxr-backend.peers.responses.5xx  	number				
+Edit
+upstreams.hg-backend.peers.state.raw  	string				
+Edit
+upstreams.hg-backend.peers.health_checks.fails  	number				
+Edit
+caches.http_cache.miss.bytes  	number				
+Edit
+server_zones.hg.nginx.org.responses.1xx  	number				
+Edit
+upstreams.demo-backend.peers.id  	number				
+Edit
+server_zones.lxr.nginx.org.discarded  	number				
+Edit
+upstreams.hg-backend.peers.active  	number				
+Edit
+caches.http_cache.miss.responses_written  	number				
+Edit
+upstreams.hg-backend.peers.health_checks.unhealthy  	number				
+Edit
+upstreams.trac-backend.peers.sent  	number				
+Edit
+upstreams.trac-backend.peers.received  	number				
+Edit
+upstreams.trac-backend.peers.responses.2xx  	number				
+Edit
+upstreams.lxr-backend.peers.downstart  	number				
+Edit
+host.raw  	string				
+Edit
+upstreams.trac-backend.peers.backup  	boolean				
+Edit
+upstreams.trac-backend.peers.selected  	number				
+Edit
+server_zones.trac.nginx.org.requests  	number				
+Edit
+address.raw  	string				
+Edit
+upstreams.hg-backend.peers.unavail  	number				
+Edit
+upstreams.trac-backend.peers.health_checks.fails  	number				
+Edit
+caches.http_cache.bypass.bytes  	number				
+Edit
+upstreams.trac-backend.keepalive  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.downtime  	number				
+Edit
+server_zones.lxr.nginx.org.responses.2xx  	number				
+Edit
+upstreams.hg-backend.peers.backup  	boolean				
+Edit
+server_zones.trac.nginx.org.responses.5xx  	number				
+Edit
+server_zones.hg.nginx.org.responses.2xx  	number				
+Edit
+upstreams.trac-backend.peers.state  	string				
+Edit
+stream.upstreams.postgresql_backends.peers.id  	number				
+Edit
+upstreams.demo-backend.peers.downstart  	number				
+Edit
+upstreams.demo-backend.peers.backup  	boolean				
+Edit
+upstreams.hg-backend.peers.responses.4xx  	number				
+Edit
+upstreams.lxr-backend.peers.unavail  	number				
+Edit
+generation  	number				
+Edit
+upstreams.trac-backend.peers.state.raw  	string				
+Edit
+server_zones.trac.nginx.org.processing  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.fails  	number				
+Edit
+upstreams.trac-backend.peers.responses.total  	number				
+Edit
+upstreams.trac-backend.peers.responses.1xx  	number				
+Edit
+stream.server_zones.postgresql_loadbalancer.processing  	number				
+Edit
+upstreams.trac-backend.peers.health_checks.last_passed  	boolean				
+Edit
+upstreams.hg-backend.peers.downtime  	number				
+Edit
+upstreams.hg-backend.peers.state  	string				
+Edit
+upstreams.hg-backend.peers.sent  	number				
+Edit
+server_zones.lxr.nginx.org.responses.total  	number				
+Edit
+upstreams.lxr-backend.peers.id  	number				
+Edit
+caches.http_cache.bypass.bytes_written  	number				
+Edit
+upstreams.demo-backend.peers.health_checks.unhealthy  	number				
+Edit
+upstreams.demo-backend.keepalive  	number				
+Edit
+server_zones.lxr.nginx.org.responses.1xx  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.sent  	number				
+Edit
+upstreams.hg-backend.peers.id  	number				
+Edit
+upstreams.demo-backend.peers.server.raw  	string				
+Edit
+upstreams.lxr-backend.peers.requests  	number				
+Edit
+server_zones.lxr.nginx.org.received  	number				
+Edit
+server_zones.hg.nginx.org.responses.3xx  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.first_byte_time  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.backup  	boolean				
+Edit
+upstreams.lxr-backend.peers.sent  	number				
+Edit
+upstreams.demo-backend.peers.server  	string				
+Edit
+server_zones.trac.nginx.org.responses.total  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.max_conns  	number				
+Edit
+upstreams.hg-backend.peers.selected  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.health_checks.unhealthy  	number				
+Edit
+upstreams.hg-backend.peers.responses.5xx  	number				
+Edit
+upstreams.demo-backend.peers.responses.5xx  	number				
+Edit
+upstreams.demo-backend.peers.health_checks.fails  	number				
+Edit
+caches.http_cache.size  	number				
+Edit
+caches.http_cache.bypass.responses_written  	number				
+Edit
+stream.server_zones.postgresql_loadbalancer.received  	number				
+Edit
+stream.server_zones.postgresql_loadbalancer.connections  	number				
+Edit
+upstreams.demo-backend.peers.responses.total  	number				
+Edit
+@timestamp   	date				
+Edit
+processes.respawned  	number				
+Edit
+upstreams.lxr-backend.peers.active  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.connect_time  	number				
+Edit
+upstreams.demo-backend.peers.downtime  	number				
+Edit
+upstreams.lxr-backend.peers.health_checks.fails  	number				
+Edit
+server_zones.lxr.nginx.org.sent  	number				
+Edit
+server_zones.lxr.nginx.org.responses.4xx  	number				
+Edit
+upstreams.trac-backend.peers.server.raw  	string				
+Edit
+caches.http_cache.miss.bytes_written  	number				
+Edit
+upstreams.lxr-backend.peers.responses.2xx  	number				
+Edit
+requests.current  	number				
+Edit
+pid  	number				
+Edit
+upstreams.lxr-backend.peers.weight  	number				
+Edit
+server_zones.trac.nginx.org.responses.3xx  	number				
+Edit
+server_zones.hg.nginx.org.responses.4xx  	number				
+Edit
+upstreams.hg-backend.peers.responses.2xx  	number				
+Edit
+upstreams.trac-backend.peers.downstart  	number				
+Edit
+upstreams.hg-backend.keepalive  	number				
+Edit
+host  	string				
+Edit
+caches.http_cache.updating.responses  	number				
+Edit
+upstreams.demo-backend.peers.responses.4xx  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.health_checks.fails  	number				
+Edit
+upstreams.lxr-backend.peers.state  	string				
+Edit
+caches.http_cache.stale.bytes  	number				
+Edit
+upstreams.demo-backend.peers.sent  	number				
+Edit
+upstreams.trac-backend.peers.server  	string				
+Edit
+upstreams.hg-backend.peers.weight  	number				
+Edit
+upstreams.demo-backend.peers.fails  	number				
+Edit
+upstreams.demo-backend.peers.health_checks.last_passed  	boolean				
+Edit
+stream.upstreams.postgresql_backends.peers.health_checks.last_passed  	boolean				
+Edit
+server_zones.trac.nginx.org.received  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.selected  	number				
+Edit
+server_zones.lxr.nginx.org.responses.3xx  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.received  	number				
+Edit
+upstreams.demo-backend.peers.received  	number				
+Edit
+upstreams.lxr-backend.peers.responses.1xx  	number				
+Edit
+upstreams.demo-backend.peers.selected  	number				
+Edit
+upstreams.trac-backend.peers.health_checks.unhealthy  	number				
+Edit
+connections.active  	number				
+Edit
+caches.http_cache.expired.responses_written  	number				
+Edit
+upstreams.hg-backend.peers.server  	string				
+Edit
+server_zones.trac.nginx.org.responses.4xx  	number				
+Edit
+upstreams.hg-backend.peers.requests  	number				
+Edit
+server_zones.hg.nginx.org.responses.5xx  	number				
+Edit
+@version  	string				
+Edit
+server_zones.hg.nginx.org.sent  	number				
+Edit
+upstreams.hg-backend.peers.responses.3xx  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.connections  	number				
+Edit
+upstreams.demo-backend.peers.state  	string				
+Edit
+upstreams.demo-backend.peers.responses.3xx  	number				
+Edit
+caches.http_cache.hit.responses  	number				
+Edit
+server_zones.lxr.nginx.org.requests  	number				
+Edit
+server_zones.hg.nginx.org.processing  	number				
+Edit
+upstreams.hg-backend.peers.server.raw  	string				
+Edit
+upstreams.hg-backend.peers.downstart  	number				
+Edit
+caches.http_cache.bypass.responses  	number				
+Edit
+stream.upstreams.postgresql_backends.peers.state  	string				
+Edit
+
