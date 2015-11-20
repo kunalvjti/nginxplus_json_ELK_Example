@@ -2,7 +2,7 @@
 This **Getting Started with ELK** example provides sample files to ingest, analyze & visualize **Nginx Plus logs obtained from its status API** using the ELK stack, i.e. Elasticsearch, Logstash and Kibana. The logs obtained from the status API are in JSON format.
 
 ##### Version
-Example has been tested in following versions:
+Example has been tested with following versions:
 - Elasticsearch 1.7.3
 - Logstash 1.5.4
 - Kibana 4.1.1
@@ -29,7 +29,17 @@ Download the following files in this repo to a local directory:
 - `nginxplus_json_logstash.conf` - Logstash config for ingesting data into Elasticsearch
 - `nginxplus_json_template.json` - template for custom mapping of fields
 - `nginxplus_json_kibana.json` - config file to load prebuilt Kibana dashboard
-- `nginxplus_json_status.sh` - script used to generate nginxplus_json_logs
+
+Unfortunately, Github does not provide a convenient one-click option to download entire contents of a subfolder in a repo. Use sample code provided below to download the required files to a local directory:
+
+```
+mkdir nginxplus_json_ELK_Example
+cd nginxplus_json_ELK_Example
+wget https://raw.githubusercontent.com/elastic/examples/master/ELK_nginxplus-json/nginxplus_json_logstash.conf
+wget https://raw.githubusercontent.com/elastic/examples/master/ELK_nginxplus-json/nginxplus_json_kibana.json
+wget https://raw.githubusercontent.com/elastic/examples/master/ELK_nginxplus-json/nginxplus_json_template.json
+wget https://raw.githubusercontent.com/elastic/examples/master/ELK_nginxplus-json/nginxplus_json_logs
+```
 
 ** The JSON formatted logs used in this example were created using status API of Nginx Plus. Please refer to [Live activity monitoring with Nginx Plus](https://www.nginx.com/products/live-activity-monitoring/) for more information on how to use status API of Nginx Plus
 
