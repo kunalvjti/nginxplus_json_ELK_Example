@@ -54,7 +54,7 @@ cat nginxplus_json_logs | <path_to_logstash_root_dir>/bin/logstash -f nginxplus_
 
  * Verify that data is successfully indexed into Elasticsearch
 
-  Running `http://localhost:9200/nginxplus_json_elk_example/_count` should return a response a `"count":3041`
+  Running `http://localhost:9200/nginxplus_json_elk_example/_count` should return a response a `"count":500`
 
  **Note:** Included `nginxplus_json_logstash.conf` configuration file assumes that you are running Elasticsearch on the same host as Logstash and have not changed the defaults. Modify the `host` and `cluster` settings in the `output { elasticsearch { ... } }`   section of nginxplus_json_logstash.conf, if needed.
 
@@ -67,10 +67,10 @@ cat nginxplus_json_logs | <path_to_logstash_root_dir>/bin/logstash -f nginxplus_
     * Click the **Settings** tab >> **Objects** tab >> **Import**, and select `nginxplus_json_kibana.json`
 <<<<<<< HEAD
 * Open dashboard
-    * Click on **Dashboard** tab and open `Sample Dashboard for Nginx Logs` dashboard
+    * Click on **Dashboard** tab and open `NginxPlus:Sample Dashboard` dashboard
 
 Voila! You should see the following dashboard. Enjoy!
-![Kibana Dashboard Screenshot](https://cloud.githubusercontent.com/assets/1437560/11281194/5d18f368-8eae-11e5-81b6-7f401f0d2723.png)
+![Kibana Dashboard Screenshot](https://cloud.githubusercontent.com/assets/1437560/11547099/4578e76a-9906-11e5-8650-5a386c82b201.png)
 
 ### We would love your feedback!
 If you found this example helpful and would like to see more such Getting Started examples for other standard formats, we would love would to hear from you. If you would like to contribute examples to this repo, we'd love that too!
