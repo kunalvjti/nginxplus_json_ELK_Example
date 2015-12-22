@@ -1,5 +1,5 @@
-### Getting Started with ELK for Nginx Plus (JSON) Logs
-This **Getting Started with ELK** example provides sample files to ingest, analyze & visualize **Nginx Plus logs obtained from its status API** using the ELK stack, i.e. Elasticsearch, Logstash and Kibana. The logs obtained from the status API are in JSON format.
+### Getting Started with ELK for NGINX Plus (JSON) Logs
+This **Getting Started with ELK** example provides sample files to ingest, analyze & visualize **NGINX Plus logs obtained from its status API** using the ELK stack, i.e. Elasticsearch, Logstash and Kibana. The logs obtained from the status API are in JSON format.
 
 ##### Version
 Example has been tested with following versions:
@@ -25,7 +25,7 @@ Example has been tested with following versions:
 ### Download Example Files
 
 Download the following files in this repo to a local directory:
-- `nginxplus_json_logs` - sample JSON formatted Nginx Plus logs from its status API
+- `nginxplus_json_logs` - sample JSON formatted NGINX Plus logs from its status API
 - `nginxplus_json_logstash.conf` - Logstash config for ingesting data into Elasticsearch
 - `nginxplus_json_template.json` - template for custom mapping of fields
 - `nginxplus_json_kibana.json` - config file to load prebuilt Kibana dashboard
@@ -41,7 +41,7 @@ wget https://raw.githubusercontent.com/elastic/examples/master/ELK_nginxplus-jso
 wget https://raw.githubusercontent.com/elastic/examples/master/ELK_nginxplus-json/nginxplus_json_logs
 ```
 
-** The JSON formatted logs used in this example were created using status API of Nginx Plus. Please refer to [Live activity monitoring with Nginx Plus](https://www.nginx.com/products/live-activity-monitoring/) for more information on how to use status API of Nginx Plus
+** The JSON formatted logs used in this example were created using status API of NGINX Plus. Please refer to [Live activity monitoring with NGINX Plus](https://www.nginx.com/products/live-activity-monitoring/) for more information on how to use status API of NGINX Plus
 
 ### Run Example
 ##### 1. Ingest data into Elasticsearch using Logstash
